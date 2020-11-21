@@ -1,0 +1,14 @@
+CFLAGS = -Wall -Werror -Wextra
+
+OBJS = $(SRCS:.c=.o)
+
+%.o: %.c
+	gcc $(CFLAGS) -c $< -I../headers
+	
+../$(NAME_LIB_ST) all: $(OBJS) 
+	ar rcs ../$(NAME_LIB_ST) $(OBJS)
+
+clean:
+	rm -f $(OBJS)
+
+re: clean all
