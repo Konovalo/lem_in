@@ -3,14 +3,14 @@
 /*                                                        :::      ::::::::   */
 /*   free_all.c                                         :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: heantoni <marvin@42.fr>                    +#+  +:+       +#+        */
+/*   By: aeclipso <aeclipso@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/11/21 23:55:05 by heantoni          #+#    #+#             */
-/*   Updated: 2020/11/22 00:01:09 by heantoni         ###   ########.fr       */
+/*   Updated: 2020/11/22 16:24:12 by aeclipso         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "commons_structures.h"
+#include "lemin.h"
 
 void		free_vertex(t_vertex *vertex)
 {

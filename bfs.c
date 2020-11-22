@@ -3,21 +3,14 @@
 /*                                                        :::      ::::::::   */
 /*   bfs.c                                              :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: heantoni <marvin@42.fr>                    +#+  +:+       +#+        */
+/*   By: aeclipso <aeclipso@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/11/21 19:48:36 by heantoni          #+#    #+#             */
-/*   Updated: 2020/11/21 21:49:22 by heantoni         ###   ########.fr       */
+/*   Updated: 2020/11/22 16:23:33 by aeclipso         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "commons_structures.h"
-
-void	bfs_add_to_lists(t_node **queue, t_node **visited_vertexes, t_vertex *v);
-void	bfs_clear_service(t_node	**list, t_node **queue);
-void	return_trip(t_vertex *v, t_node **found_paths);
-void	iterate_edges(t_vertex *curr_vert, t_node **queue, t_node **visited_vertexes);
-void	free_visited_vertex(t_node	**list);
-int		edge_get_opp_v1(t_edge *e, t_vertex *v);
+#include "lemin.h"
 
 void			bfs2(t_node **found_paths, t_node **visited_vertexes, \
 		t_node **queue, t_vertex *sv)

@@ -1,4 +1,4 @@
-#include "commons_structures.h"
+#include "lemin.h"
 
 e_vertex_type   zap_type(t_read **read)
 {

@@ -3,14 +3,14 @@
 /*                                                        :::      ::::::::   */
 /*   print_ant.c                                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: heantoni <marvin@42.fr>                    +#+  +:+       +#+        */
+/*   By: aeclipso <aeclipso@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/11/12 19:39:49 by heantoni          #+#    #+#             */
-/*   Updated: 2020/11/12 19:39:55 by heantoni         ###   ########.fr       */
+/*   Updated: 2020/11/22 16:40:14 by aeclipso         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "commons_structures.h"
+#include "lemin.h"
 
 int   zap_print_ant(t_node **mass, int *ogi, t_ant_node *an, t_node *paths, t_read read)
 {
@@ -51,24 +51,24 @@ void    print_ant(t_read read, t_node *paths, t_ant_node *an)
     int i;
     int k;
 
-k = zap_print_ant(mass, ogi, an, paths, read);
-while (k == 0)
-{
-    i = 0;
-    k = 1;
-    while(i < read.ant)
+    k = zap_print_ant(mass, ogi, an, paths, read);
+    while (k == 0)
     {
-        if (ogi[i] == 0 && mass[i])
+        i = 0;
+        k = 1;
+        while(i < read.ant)
         {
-            k = 0;
-            ft_printf("L%d-%s ", i + 1, ((t_vertex*)((t_node*)mass[i]->data))->name);
-            mass[i] = (t_node*)mass[i]->next;
+            if (ogi[i] == 0 && mass[i])
+            {
+                k = 0;
+                ft_printf("L%d-%s ", i + 1, ((t_vertex*)((t_node*)mass[i]->data))->name);
+                mass[i] = (t_node*)mass[i]->next;
+            }
+            else
+            ogi[i]--; 
+            i++;
         }
-        else
-           ogi[i]--; 
-        i++;
+        if (k == 0)
+            ft_printf("\n");
     }
-    if (k == 0)
-        ft_printf("\n");
-}
 }

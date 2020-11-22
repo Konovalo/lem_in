@@ -3,14 +3,14 @@
 /*                                                        :::      ::::::::   */
 /*   cut_line2.c                                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: heantoni <marvin@42.fr>                    +#+  +:+       +#+        */
+/*   By: aeclipso <aeclipso@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/11/21 22:51:22 by heantoni          #+#    #+#             */
-/*   Updated: 2020/11/21 22:52:54 by heantoni         ###   ########.fr       */
+/*   Updated: 2020/11/22 16:23:58 by aeclipso         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "commons_structures.h"
+#include "lemin.h"
 
 int				check_cut(t_vertex **ver, t_time *time, t_read *read, \
 		t_node **v_list)

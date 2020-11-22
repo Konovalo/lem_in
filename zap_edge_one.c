@@ -1,4 +1,4 @@
-#include "commons_structures.h"
+#include "lemin.h"
 
 void    zap_edge8(t_node **e_list, t_vertex **v2, t_vertex **v4);
 void    zap_edge7(t_node **e_list, t_vertex **v2, t_vertex **v3);

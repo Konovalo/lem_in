@@ -3,14 +3,14 @@
 /*                                                        :::      ::::::::   */
 /*   poisk.c                                            :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: heantoni <marvin@42.fr>                    +#+  +:+       +#+        */
+/*   By: aeclipso <aeclipso@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/11/22 00:01:40 by heantoni          #+#    #+#             */
-/*   Updated: 2020/11/22 00:21:27 by heantoni         ###   ########.fr       */
+/*   Updated: 2020/11/22 16:24:18 by aeclipso         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "commons_structures.h"
+#include "lemin.h"
 
 int			poisk3(t_node *vrem2, t_node *vrem1)
 {

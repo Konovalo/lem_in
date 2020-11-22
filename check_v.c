@@ -3,14 +3,14 @@
 /*                                                        :::      ::::::::   */
 /*   check_v.c                                          :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: heantoni <marvin@42.fr>                    +#+  +:+       +#+        */
+/*   By: aeclipso <aeclipso@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/09/13 14:41:08 by heantoni          #+#    #+#             */
-/*   Updated: 2020/11/21 22:15:37 by heantoni         ###   ########.fr       */
+/*   Updated: 2020/11/22 16:23:46 by aeclipso         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "commons_structures.h"
+#include "lemin.h"
 
 void			init(t_read *read, int argc)
 {

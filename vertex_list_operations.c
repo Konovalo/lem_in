@@ -3,14 +3,14 @@
 /*                                                        :::      ::::::::   */
 /*   vertex_list_operations.c                           :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: heantoni <marvin@42.fr>                    +#+  +:+       +#+        */
+/*   By: aeclipso <aeclipso@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/11/22 00:21:58 by heantoni          #+#    #+#             */
-/*   Updated: 2020/11/22 00:32:32 by heantoni         ###   ########.fr       */
+/*   Updated: 2020/11/22 16:24:28 by aeclipso         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "commons_structures.h"
+#include "lemin.h"
 
 t_vertex		*vertex_list_get_first(t_node **list)
 {

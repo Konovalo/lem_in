@@ -3,14 +3,14 @@
 /*                                                        :::      ::::::::   */
 /*   bfs2.c                                             :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: heantoni <marvin@42.fr>                    +#+  +:+       +#+        */
+/*   By: aeclipso <aeclipso@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/11/21 21:54:00 by heantoni          #+#    #+#             */
-/*   Updated: 2020/11/21 21:59:15 by heantoni         ###   ########.fr       */
+/*   Updated: 2020/11/22 16:23:39 by aeclipso         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "commons_structures.h"
+#include "lemin.h"
 
 int				edge_get_opp_v1(t_edge *e, t_vertex *v)
 {

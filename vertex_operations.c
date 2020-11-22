@@ -3,14 +3,14 @@
 /*                                                        :::      ::::::::   */
 /*   vertex_operations.c                                :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: heantoni <marvin@42.fr>                    +#+  +:+       +#+        */
+/*   By: aeclipso <aeclipso@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/11/22 00:35:00 by heantoni          #+#    #+#             */
-/*   Updated: 2020/11/22 00:35:04 by heantoni         ###   ########.fr       */
+/*   Updated: 2020/11/22 16:24:33 by aeclipso         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "commons_structures.h"
+#include "lemin.h"
 
 int		vertex_cmp_forked(t_vertex *v1, t_vertex *v2)
 {

@@ -3,14 +3,14 @@
 /*                                                        :::      ::::::::   */
 /*   edge_operations.c                                  :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: heantoni <marvin@42.fr>                    +#+  +:+       +#+        */
+/*   By: aeclipso <aeclipso@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/11/21 23:15:03 by heantoni          #+#    #+#             */
-/*   Updated: 2020/11/21 23:17:23 by heantoni         ###   ########.fr       */
+/*   Updated: 2020/11/22 16:24:07 by aeclipso         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "commons_structures.h"
+#include "lemin.h"
 
 t_edge			*edge_create(t_vertex *v1, t_vertex *v2)
 {

@@ -3,14 +3,14 @@
 /*                                                        :::      ::::::::   */
 /*   ants.c                                             :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: heantoni <marvin@42.fr>                    +#+  +:+       +#+        */
+/*   By: aeclipso <aeclipso@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/11/15 00:36:02 by heantoni          #+#    #+#             */
-/*   Updated: 2020/11/15 00:49:04 by heantoni         ###   ########.fr       */
+/*   Updated: 2020/11/22 16:23:19 by aeclipso         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "commons_structures.h"
+#include "lemin.h"
 
 void			ants2(t_node *et1, t_node *e, t_ant_node **ann, t_ant_node **an)
 {

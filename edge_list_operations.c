@@ -3,14 +3,14 @@
 /*                                                        :::      ::::::::   */
 /*   edge_list_operations.c                             :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: heantoni <marvin@42.fr>                    +#+  +:+       +#+        */
+/*   By: aeclipso <aeclipso@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/11/21 23:08:24 by heantoni          #+#    #+#             */
-/*   Updated: 2020/11/22 00:34:26 by heantoni         ###   ########.fr       */
+/*   Updated: 2020/11/22 16:24:03 by aeclipso         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "commons_structures.h"
+#include "lemin.h"
 
 t_node			*edge_list_add_all(t_node **node, t_edge *e)
 {
